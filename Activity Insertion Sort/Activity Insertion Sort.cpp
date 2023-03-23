@@ -84,4 +84,11 @@ void display()
 	}
 	cout << endl;
 }
+int main()
+{
+	input();				// Memanggil display
+	insertionsort();		// Memanggil insertionshort
+	display();				// Memanggil display
+}
+
 
