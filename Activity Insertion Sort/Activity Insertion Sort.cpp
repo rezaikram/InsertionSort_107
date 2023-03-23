@@ -49,3 +49,16 @@ void insertionsort()
 		temp = arr[i];	// 2. Simpan nilai arr[i] ke variabel sementara temp
 	}
 
+	j = i - 1;	// 3. Setting nilai j sama dengan i-1;
+
+
+	while (j >= 0 && arr[j] > temp)	// 4. Looping while dimana nilai j lebih besar
+		// arr[j] lebih besar daripada temp
+	{
+		arr[j + 1] = arr[j];	// a. simpan arr[j] ke dalam variabel arr[j + 1]
+		j--;					// b. Decrement nilai j by 1
+	}
+
+	arr[j + 1] = temp; // 5. simpan nilai temp ke dalam arr[j+1]
+
+
