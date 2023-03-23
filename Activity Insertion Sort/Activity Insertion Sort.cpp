@@ -32,6 +32,16 @@ void input()
 		cout << "Data ke-" << (i + 1) << ": ";
 		cin >> arr[i];
 
-
+	
+	
 	}
+
 }
+// Procedure Insertionsort
+void insertionsort()
+{
+
+	int temp;	// Membuat variable daya temporer atau penyimpanan sementara
+	int j;		// membuat variable j sebagai tanda
+
+
